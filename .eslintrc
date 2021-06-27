@@ -1,3 +1,27 @@
 {
-  "extends": ["next", "next/core-web-vitals"]
+  "extends": [
+    "@lukemorales"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "arrowParens": "avoid"
+      }
+    ],
+    "no-empty-pattern": "off",
+    "react-native-normalized/forbid-native-components": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "radar/no-duplicate-string": "off",
+    "no-console": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "react/no-array-index-key": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "func-names": "off",
+    "no-param-reassign": "off",
+    "no-alert": "off"
+  }
 }

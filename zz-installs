@@ -1,0 +1,5 @@
+npx install-peerdeps --dev @lukemorales/eslint-config -Y
+
+yarn add -D typescript @types/node @types/react @babel/core @babel/preset-typescript plop
+
+ yarn add @chakra-ui/react @emotion/react @emotion/styled axios date-fns framer-motion json-server next react react-dom react-icons

@@ -1,0 +1,17 @@
+import { NextPage } from 'next'
+import { Flex, Text } from "@chakra-ui/react"
+
+import * as C from '~/components'
+
+const {{pascalCase name}}: NextPage = () => {
+return (
+<>
+  <C.MetaTags title="{{pascalCase name}}" />
+  <Flex w="100vw" h="100vh" align="center" justify="center">
+    <Text>{{pascalCase name}} Page</Text>
+  </Flex>
+</>
+)
+}
+
+export default {{pascalCase name}}
